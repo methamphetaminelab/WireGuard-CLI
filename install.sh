@@ -5,10 +5,12 @@ if [ ! -f "requirements.txt" ]; then
     exit 1
 fi
 
+python -m venv venv
+
 # Установка зависимостей из requirements.txt
 echo "Installing dependencies..."
 pip install -r requirements.txt
-venv/bin/pip install -r requirements.txt
+venv/bin/pip install -r requirements.txt    
 
 # Проверка наличия cliguard.py
 if [ ! -f "cliguard.py" ]; then
