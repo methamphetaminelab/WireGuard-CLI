@@ -1,5 +1,9 @@
 # WireGuard-CLI
-Utility providing wireguard console interface
+A simple utility providing a Wireguard console interface
+
+# This Is Important
+1. You need to install wireguard on your system.
+2. There must be at least one config in /etc/wireguard/
 
 # Automatic installation
 1. ```git clone https://github.com/methamphetaminelab/WireGuard-CLI```
