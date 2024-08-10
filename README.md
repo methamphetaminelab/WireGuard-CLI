@@ -10,7 +10,7 @@ Utility providing wireguard console interface
 # Manual Installation
 1. ```git clone https://github.com/methamphetaminelab/WireGuard-CLI```
 2. ```cd WireGuard-CLI/```
-3. ```pip install -r requirements.txt``` or ```venv/bin/pip install -r requirements.txt```
+3. ```pip install -r requirements.txt``` or ```python -m venv venv``` >> ```venv/bin/pip install -r requirements.txt```
 4. ```chmod +x cliguard.py```
 5. ```sudo cp cliguard.py /usr/local/bin/cliguard```
 
