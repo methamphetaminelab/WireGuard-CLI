@@ -1,4 +1,4 @@
-# WireGuard-CLI
+# WireGuard-TUI
 A simple utility providing a Wireguard console interface
 
 # This Is Important
@@ -6,20 +6,20 @@ A simple utility providing a Wireguard console interface
 2. There must be at least one config in /etc/wireguard/
 
 # Automatic installation
-1. ```git clone https://github.com/methamphetaminelab/WireGuard-CLI```
-2. ```cd WireGuard-CLI/```
+1. ```git clone https://github.com/methamphetaminelab/WireGuard-TUI```
+2. ```cd WireGuard-TUI/```
 3. ```chmod +x install.sh```
 4. ```./install.sh```
 
 # Manual Installation
-1. ```git clone https://github.com/methamphetaminelab/WireGuard-CLI```
-2. ```cd WireGuard-CLI/```
+1. ```git clone https://github.com/methamphetaminelab/WireGuard-TUI```
+2. ```cd WireGuard-TUI/```
 3. ```pip install -r requirements.txt``` or ```python -m venv venv``` >> ```venv/bin/pip install -r requirements.txt```
-4. ```chmod +x cliguard.py```
-5. ```sudo cp cliguard.py /usr/local/bin/cliguard```
+4. ```chmod +x tuiguard.py```
+5. ```sudo cp tuiguard.py /usr/local/bin/tuiguard```
 
 # Usage
-1. ```sudo cliguard --config(-c) <config name file>```
-2. Example: ```sudo cliguard --config wg0```
-3. Example: ```sudo cliguard -c wg0```
-4. Example: ```sudo cliguard```
+1. ```sudo tuiguard --config(-c) <config name file>```
+2. Example: ```sudo tuiguard --config wg0```
+3. Example: ```sudo tuiguard -c wg0```
+4. Example: ```sudo tuiguard```
